@@ -14,10 +14,18 @@ const TTT_PROJECT_TITLE = document.getElementById("ttt_project_title");
 
 PROJECT_DROPDOWN_BTN.addEventListener("click", switch_project_dropdown);
 
-ADA_PROJECT_TITLE = addEventListener("click", goToPage("ada"));
-SPACE_SHOOTER_PROJECT_TITLE = addEventListener("click", goToPage("ss"));
-PLATFORMER_PROJECT_TITLE = addEventListener("click", goToPage("platformer"));
-TTT_PROJECT_TITLE = addEventListener("click", goToPage("ttt"));
+ADA_PROJECT_TITLE = addEventListener("click", function() {
+    goToPage("ada") 
+});
+SPACE_SHOOTER_PROJECT_TITLE = addEventListener("click", function() {
+    goToPage("ss") 
+});
+PLATFORMER_PROJECT_TITLE = addEventListener("click", function() {
+    goToPage("platformer") 
+});
+TTT_PROJECT_TITLE = addEventListener("click", function() {
+    goToPage("ttt") 
+});
 
 // ------------------------------ Functions ------------------------------ //
 
