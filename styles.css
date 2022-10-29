@@ -225,9 +225,150 @@ body {
 
 }
 
+.text_block {
 
+    display: inline-block;
+    width: 60%;
+    height: 300px;
+    border: 2px solid var(--darkBlue);
 
+}
 
+.text_block_title {
+
+    margin: auto;
+    font-size: 30px;
+    color: var(--darkBlue);
+    text-decoration: underline;
+    width: fit-content;
+    margin-top: 10px;
+
+}
+
+.future_block {
+
+    display: inline-block;
+    width: 30%;
+    border: 2px solid var(--darkBlue);
+    height: 300px;
+    margin-right: 10%;
+
+}
+
+.future_block_title {
+
+    margin: auto;
+    font-size: 30px;
+    color: var(--darkBlue);
+    text-decoration: underline;
+    width: fit-content;
+    margin-top: 10px;
+
+}
+
+.intro_text_block_grouping {
+
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.code_language_bar {
+
+    display: block;
+    width: 80%;
+    height: 30px;
+    background-color: grey;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px 15px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.code_language {
+
+    display: inline-block;
+    padding-top: 12.5px;
+    height: 100%;
+    padding-left: 3px;
+
+}
+
+#ada_py_language { 
+    width: 48.5%;
+    padding-left: 5px;
+    background-color: yellowgreen;  
+}
+#ada_cpp_language { 
+    width: 43%;
+    background-color: cadetblue;
+}
+#ada_make_language { 
+    width: 10%;
+    background-color: var(--red);
+}
+
+#ss_py_language { 
+    width: 100%;
+    padding-left: 5px;
+    background-color: yellowgreen;  
+}
+
+#unity_language {
+    width: 55%;
+    padding-left: 5px;
+    background-color: grey;
+}
+#cs_language {
+    width: 35%;
+    background-color: cornflowerblue;
+}
+#blender_language {
+    width: 10%;
+    background-color: coral;
+}
+
+#code_access_link {
+
+    font-size: 50px;
+    margin: auto;
+    width: 200px;
+    height: 60px;
+    border: 2px solid var(--darkBlue);
+    color: var(--darkBlue);
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+
+video {
+
+    margin-left: 33%;
+
+}
+
+.video_explanation {
+
+    margin: auto;
+    width: fit-content;
+    font-size: 30px;
+    color: var(--darkBlue);
+}
+
+.letter_bold {
+
+    font-weight: 900;
+
+}
 
 
 @media only screen and (max-width: 1000px) {
