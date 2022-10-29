@@ -140,6 +140,7 @@ body {
 .project-example {
 
     border: 5px solid var(--green);
+    cursor: pointer;
 
 }
 
