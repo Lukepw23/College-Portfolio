@@ -370,6 +370,14 @@ video {
 
 }
 
+.text_block_body {
+
+    margin: 10px;
+    font-size: 20px;
+    color: var(--darkBlue);
+
+}
+
 
 @media only screen and (max-width: 1000px) {
     
