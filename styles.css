@@ -393,6 +393,13 @@ video {
     color: var(--darkBlue);
 }
 
+#joc_image {
+
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+}
+
 
 @media only screen and (max-width: 1000px) {
     
